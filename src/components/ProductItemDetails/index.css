@@ -1,0 +1,148 @@
+/* Write your CSS here */
+.success-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+.first-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 20px;
+  width: 100%;
+  padding: 40px;
+}
+.image {
+  width: 35%;
+  height: 450px;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+.first-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 35%;
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: bold;
+}
+.price {
+  font-family: 'Roboto';
+  font-size: 23px;
+  font-weight: bold;
+}
+.rating-holder {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+.rating {
+  width: 40px;
+  height: 25px;
+  background-color: blue;
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.para {
+  font-size: 16px;
+}
+.star {
+  width: 13px;
+  height: 13px;
+  margin-left: 3px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.first-bold {
+  font-size: 14px;
+  font-weight: bold;
+}
+.review {
+  font-size: 12px;
+  font-weight: 500;
+  margin-top: 5px;
+  text-align: center;
+  padding: 5px;
+}
+hr {
+  background-color: #cbced2;
+  width: 100%;
+  opacity: 0.5;
+}
+.quantity-holder {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.btn {
+  border-style: none;
+  background-color: transparent;
+  outline: none;
+  height: 15px;
+  width: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.number {
+  font-size: 15px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.add-btn {
+  padding: 5px;
+  width: 80px;
+  height: 25px;
+  background-color: blue;
+  color: white;
+  outline: none;
+  border-radius: 5px;
+  font-weight: 600;
+}
+.list-items {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 70vh;
+}
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.failure {
+  width: 50%;
+}
+.failure-btn {
+  padding: 5px;
+  width: 150px;
+  border-style: none;
+  outline: none;
+  height: 35px;
+  border-radius: 5px;
+}
+.btn-icon {
+  width: 100%;
+}
